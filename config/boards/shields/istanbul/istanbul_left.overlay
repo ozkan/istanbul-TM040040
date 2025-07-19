@@ -6,7 +6,7 @@
 
 
 #include "istanbul.dtsi"
-
+#include "shared.dtsi"
 
 
 &kscan0 {
@@ -19,3 +19,15 @@
         , <&gpio1 11 GPIO_ACTIVE_HIGH>  // col6
         ;
 };
+
+
+
+
+&pro_micro_i2c {
+    status = "okay";
+
+    glidepoint: glidepoint@2a {
+        status = "okay";
+    };
+};
+

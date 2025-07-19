@@ -21,7 +21,6 @@
         zmk,physical-layout = &istanbul_full_layout;
     };
 
-
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         steps = <80>;
@@ -33,6 +32,8 @@
         steps = <80>;
         status = "disabled";
     };
+    
+
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
